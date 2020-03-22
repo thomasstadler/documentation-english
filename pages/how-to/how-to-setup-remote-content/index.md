@@ -92,7 +92,7 @@ Well done!
 The pages that are imported via remote content need to follow this structure in order to parse correctly:
 
 * First line: title of the page with a leading #
-* Then all metadata you want to provide such as creation date, publish status etc. wrapped by html content notation (`<!--` and `-->`)
+* Then all metadata you want to provide such as creation date, publish status etc. wrapped by an html comment notation (`<!--` and `-->`)
 * Your content
 
 ```markdown
